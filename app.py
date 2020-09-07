@@ -155,7 +155,7 @@ new_data = features[:1]
 
 if st.button("Process"):
     prediction = load_clf.decision_function(new_data)
-    st.subheader('Prediction Probability')
+    st.subheader('Prediction')
     max_decision = np.amax(prediction)
     location = np.where(np.amax(prediction))
 #    st.write(prediction_proba)
