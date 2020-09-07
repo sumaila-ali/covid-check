@@ -1,0 +1,5 @@
+streamlit
+pandas
+numpy
+xlrd >= 1.0.0
+sklearn
