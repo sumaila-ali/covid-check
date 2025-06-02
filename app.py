@@ -168,5 +168,5 @@ if st.button("Process"):
     elif int(location[0]) == 2:
         st.warning("You are showing symptoms that are heavily linked to Covid-19")
         st.warning("Kindly visit the nearest testing center to get tested.")
-        st.warning("Please, remember to wear you nose mask and practice social distancing")
+        st.warning("Please, remember to wear your nose mask and practice social distancing")
         
